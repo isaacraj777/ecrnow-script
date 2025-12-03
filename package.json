@@ -1,0 +1,17 @@
+{
+    "name": "uug-ecrnow-client",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "scripts/ecr_flow_node.js",
+    "scripts": {
+      "keygen": "node scripts/generate_keys_and_jwk.js",
+      "run": "node scripts/ecr_flow_node.js"
+    },
+    "dependencies": {
+      "axios": "^1.7.0",
+      "dotenv": "^16.4.0",
+      "jose": "^5.2.4",
+      "uuid": "^9.0.1"
+    }
+  }
+  
